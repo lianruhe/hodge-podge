@@ -1,0 +1,23 @@
+/* snake loading */
+.snake {
+  animation: c-spinner-snake 0.8s infinite linear;
+  border-color: color(white lightness(80%)) transparent color(white lightness(80%)) color(white lightness(80%));
+  border-style: solid;
+  border-width: dpr(4px);
+  border-radius: 50%;
+  width: dpr(48px);
+  height: dpr(48px);
+  display: inline-block;
+}
+
+@keyframes c-spinner-snake {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+/* etc. */
